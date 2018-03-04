@@ -16,5 +16,25 @@ namespace ExerciciosAula02
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            if (checkBox2.Checked && checkBox3.Checked)
+            {
+                if (checkBox4.Checked || checkBox6.Checked )
+                {
+                  if (checkBox4.Checked && checkBox8.Checked)
+                    {
+                        MessageBox.Show("Você foi Selecionado para a Vaga na área de TI");
+                    }  
+                }
+              }
+            else 
+                 {
+
+                MessageBox.Show("Você não passou, mas continue tentando");
+            }
+        }
     }
 }

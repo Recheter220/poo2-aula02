@@ -40,9 +40,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 18);
+            this.label1.Location = new System.Drawing.Point(12, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Disciplina:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -50,58 +51,65 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 58);
+            this.label2.Location = new System.Drawing.Point(12, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.Size = new System.Drawing.Size(114, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Total Disciplinas:";
+            this.label2.Text = "Total de Aulas:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 111);
+            this.label3.Location = new System.Drawing.Point(12, 171);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 13);
+            this.label3.Size = new System.Drawing.Size(124, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Faltas do Aluno:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(54, 174);
+            this.button1.Location = new System.Drawing.Point(81, 268);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 24);
+            this.button1.Size = new System.Drawing.Size(190, 37);
             this.button1.TabIndex = 3;
             this.button1.Text = "Calcular Frquência";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(67, 15);
+            this.textBox1.Location = new System.Drawing.Point(100, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 20);
+            this.textBox1.Size = new System.Drawing.Size(169, 26);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(97, 55);
+            this.textBox2.Location = new System.Drawing.Point(146, 85);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 20);
+            this.textBox2.Size = new System.Drawing.Size(169, 26);
             this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(97, 108);
+            this.textBox3.Location = new System.Drawing.Point(146, 166);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(114, 20);
+            this.textBox3.Size = new System.Drawing.Size(169, 26);
             this.textBox3.TabIndex = 6;
             // 
             // exerc_a
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(426, 402);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -109,6 +117,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "exerc_a";
             this.Text = "exerc_a";
             this.Load += new System.EventHandler(this.exerc_a_Load);

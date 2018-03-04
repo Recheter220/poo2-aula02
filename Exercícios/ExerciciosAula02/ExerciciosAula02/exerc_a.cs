@@ -36,5 +36,31 @@ namespace ExerciciosAula02
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+            try // tratamento de erro 
+            {
+                double aulas = 0.0, faltas = 0.0, presencabr = 0.0, presencapr = 0.0;
+                //declara variáveis
+                //substitui caracter . por ,
+                textBox2.Text = textBox2.Text.Replace(".", ",");
+                //converte texto contido em textBox1 para double
+                aulas = Convert.ToDouble(textBox2.Text);
+                //converte texto contido em textBox2 para double
+                faltas = Convert.ToDouble(textBox3.Text);
+                //cálculos de frequência
+                presencabr = aulas - faltas; 
+                presencapr = (presencabr * 100) / aulas;
+                MessageBox.Show("Frequência do aulo é de " + presencapr);
+            }
+            catch (FormatException erro)
+            {
+                //captura e mostra o erro de conversão de formato
+                MessageBox.Show("ERRO: " + erro.Message);
+            }
+        }
     }
 }
