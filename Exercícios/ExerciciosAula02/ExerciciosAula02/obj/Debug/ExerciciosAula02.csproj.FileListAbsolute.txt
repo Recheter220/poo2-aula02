@@ -9,3 +9,15 @@ E:\POO II\Exercícios Aula 02\ExerciciosAula02\ExerciciosAula02\obj\Debug\Exerci
 E:\POO II\Exercícios Aula 02\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.csproj.CoreCompileInputs.cache
 E:\POO II\Exercícios Aula 02\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.exe
 E:\POO II\Exercícios Aula 02\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.pdb
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\bin\Debug\ExerciciosAula02.exe.config
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.exe
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.pdb
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\bin\Debug\ExerciciosAula02.exe
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\bin\Debug\ExerciciosAula02.pdb
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.csprojResolveAssemblyReference.cache
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.exerc_a.resources
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.exerc_b.resources
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.exerc_e.resources
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.MenuPrincipal.resources
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.Properties.Resources.resources
+G:\POO II\2018-03-01 (Aula 02)\Exercícios\ExerciciosAula02\ExerciciosAula02\obj\Debug\ExerciciosAula02.csproj.GenerateResource.Cache

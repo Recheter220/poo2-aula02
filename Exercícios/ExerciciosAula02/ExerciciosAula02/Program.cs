@@ -16,7 +16,7 @@ namespace ExerciciosAula02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new exerc_a());
+            Application.Run(new MenuPrincipal());
         }
     }
 }
