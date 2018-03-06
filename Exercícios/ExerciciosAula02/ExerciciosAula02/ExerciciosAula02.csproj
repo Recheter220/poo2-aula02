@@ -89,6 +89,9 @@
     <EmbeddedResource Include="exerc_b.resx">
       <DependentUpon>exerc_b.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="exerc_e.resx">
+      <DependentUpon>exerc_e.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
